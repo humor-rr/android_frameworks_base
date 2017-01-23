@@ -409,6 +409,7 @@ public class Clock extends TextView implements DemoMode, CommandQueue.Callbacks,
 
         SpannableStringBuilder formatted = new SpannableStringBuilder(result);
 
+
         if (mAmPmStyle != AM_PM_STYLE_NORMAL) {
             int magic1 = result.indexOf(MAGIC1);
             int magic2 = result.indexOf(MAGIC2);
